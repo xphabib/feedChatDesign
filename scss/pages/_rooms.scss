@@ -1,0 +1,53 @@
+/* Rooms */
+.rooms {
+  .rooms-header {
+    margin-bottom: 30px;
+  }
+  .single-room {
+    background: #eeee;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    min-height: 120px;
+    padding: 8px;
+    position: relative;
+    margin-bottom: 16px;
+    .room-info {
+      position: absolute;
+      bottom: 8px;
+    }
+    .room-title {
+      color: #ffff;
+      margin-bottom: -5px;
+    }
+    .user-count {
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+  .room-one {
+    background: #ffb84e;
+  }
+  .room-two {
+    background: #674eff;
+  }
+  .room-three {
+    background: #b95eec;
+  }
+  .room-four {
+    background: #ff5384;
+  }
+  .room-five {
+    background: #557ef0;
+  }
+  .room-six {
+    background: #4ebfff;
+  }
+  .room-seven {
+    background: #3fd37d;
+  }
+  .room-eight {
+    background: #ff4e4e;
+  }
+}

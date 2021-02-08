@@ -1,0 +1,23 @@
+/* Nav */
+.navigation {
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  ul {
+    margin-bottom: 15px;
+    li {
+      display: inline-block;
+      margin: 0px 28px;
+      padding-top: 15px;
+      a {
+        img {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

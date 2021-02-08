@@ -1,0 +1,86 @@
+/* Sign Up One */
+.sign-up-one {
+  margin-top: 44px;
+  height: 100vh;
+
+  .sign-up-top {
+    padding: 14px 0;
+
+    .log-in-ask p {
+      color: #6b6b6b;
+      font-weight: 600;
+
+      a {
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 5px;
+      }
+    }
+  }
+  .sign-up-header {
+    margin-bottom: 30px;
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1a1a;
+      line-height: 1.5;
+      margin-bottom: 5px;
+    }
+    h3 {
+      font-size: 18px;
+      color: #8a8a8a;
+    }
+  }
+  form {
+    .form-label {
+      color: $tertiary-color;
+      font-size: 15px;
+      font-weight: 600;
+      color: #000;
+
+      .password-show {
+        position: absolute;
+        right: 32px;
+        left: auto;
+        color: #858585;
+      }
+    }
+    .form-control {
+      border: none;
+      border-radius: 0;
+      border-top: 1px solid #efefef;
+      padding-left: 0;
+      margin-bottom: 5px;
+
+      &:focus {
+        outline: none;
+        border-top: 1px solid $primary-color;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: -webkit-focus-ring-color auto 0px;
+      }
+
+      .sign-up-btn:focus {
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: -webkit-focus-ring-color auto 0px;
+      }
+    }
+  }
+  .terms-policy p {
+    font-size: 13px;
+    letter-spacing: -0.17px;
+    font-weight: 600;
+    color: #6b6b6b;
+    margin-top: 20px;
+
+    a {
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }
+}

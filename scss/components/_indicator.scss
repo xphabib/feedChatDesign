@@ -1,0 +1,19 @@
+.home-indicator {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 90.64%;
+  bottom: 0%;
+  background: #f9f9f9;
+  border-radius: 24px 0px 0px 0px;
+}
+
+.indicator-line {
+  position: absolute;
+  width: 135px;
+  height: 5px;
+  left: calc(50% - 135px / 2);
+  bottom: 8px;
+  background: #8a8a8a;
+  border-radius: 100px;
+}

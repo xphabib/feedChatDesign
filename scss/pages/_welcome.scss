@@ -1,0 +1,20 @@
+.welcome {
+  background-image: url(../../images/icon/Welcome.png);
+  background-size: cover;
+  height: 100vh;
+
+  .welcome-header {
+    height: 80vh;
+    padding-top: 20px;
+
+    .app-title {
+      font-size: 36px;
+      padding-top: 18px;
+    }
+  }
+  .welcome-btn {
+    padding-top: 70px;
+    position: relative;
+    z-index: 100;
+  }
+}

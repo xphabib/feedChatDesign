@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Say Something</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="say-something">
+      <div class="container-sm">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="back-icon">
+              <img src="images/icon/back.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <form action="#">
+            <div class="row">
+              <div class="col-12">
+                <textarea
+                  class="form-control"
+                  id="post"
+                  placeholder="Say Something..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="col-12 d-flex align-items-center justify-content-between"
+              >
+                <div class="image-upload">
+                  <label for="post-image"
+                    ><img src="images/icon/camera.png" alt="" />
+                    <img src="images/icon/three-arrow.png" alt="" />
+                  </label>
+                  <input type="file" id="post-image" />
+                </div>
+
+                <div class="post-btn">
+                  <button class="btn" type="submit">Post</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <div class="indicator-line"></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

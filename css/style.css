@@ -1,0 +1,454 @@
+*::-webkit-input-placeholder {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+  color: #858585;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.splash-screen {
+  background-image: linear-gradient(142.13deg, #00e0ff 31.11%, #009aff 89.68%);
+  height: 100vh;
+}
+.splash-screen .app-icon img {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: block;
+}
+
+.welcome {
+  background-image: url(../../images/icon/Welcome.png);
+  background-size: cover;
+  height: 100vh;
+}
+.welcome .welcome-header {
+  height: 80vh;
+  padding-top: 20px;
+}
+.welcome .welcome-header .app-title {
+  font-size: 36px;
+  padding-top: 18px;
+}
+.welcome .welcome-btn {
+  padding-top: 70px;
+  position: relative;
+  z-index: 100;
+}
+
+/* Sign Up One */
+.sign-up-one {
+  margin-top: 44px;
+  height: 100vh;
+}
+.sign-up-one .sign-up-top {
+  padding: 14px 0;
+}
+.sign-up-one .sign-up-top .log-in-ask p {
+  color: #6b6b6b;
+  font-weight: 600;
+}
+.sign-up-one .sign-up-top .log-in-ask p a {
+  text-decoration: none;
+  color: #009aff;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.sign-up-one .sign-up-header {
+  margin-bottom: 30px;
+}
+.sign-up-one .sign-up-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.sign-up-one .sign-up-header h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+}
+.sign-up-one form .form-label {
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.sign-up-one form .form-label .password-show {
+  position: absolute;
+  right: 32px;
+  left: auto;
+  color: #858585;
+}
+.sign-up-one form .form-control {
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #efefef;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+.sign-up-one form .form-control:focus {
+  outline: none;
+  border-top: 1px solid #009aff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.sign-up-one form .form-control .sign-up-btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.sign-up-one .terms-policy p {
+  font-size: 13px;
+  letter-spacing: -0.17px;
+  font-weight: 600;
+  color: #6b6b6b;
+  margin-top: 20px;
+}
+.sign-up-one .terms-policy p a {
+  color: #009aff;
+  font-weight: 700;
+}
+
+/* Sign Up Two */
+.sign-up-two {
+  margin-top: 44px;
+}
+.sign-up-two .sign-up-header {
+  margin-bottom: 30px;
+}
+.sign-up-two .sign-up-header h1 {
+  margin: 0;
+}
+.sign-up-two .sign-up-header h2 {
+  color: #8a8a8a;
+  font-weight: 600;
+}
+.sign-up-two form .form-label {
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.sign-up-two form .form-label .password-show {
+  position: absolute;
+  right: 32px;
+  left: auto;
+  color: #858585;
+}
+.sign-up-two form .form-control {
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #efefef;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+.sign-up-two form .form-control:focus {
+  outline: none;
+  border-top: 1px solid #009aff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.sign-up-two form .form-control .sign-up-btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.sign-up-two .chatting-btn {
+  position: absolute;
+  bottom: 50px;
+  z-index: 50;
+  right: 16px;
+  width: 153px;
+}
+
+.say-something .back-icon {
+  padding: 15px 0;
+}
+.say-something .say-something-header {
+  margin-top: 10px;
+}
+.say-something .say-something-header h1 {
+  color: #6b6b6b;
+  font-weight: 600;
+}
+.say-something .post {
+  height: 600px;
+}
+.say-something .post form textarea {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  letter-spacing: -0.17px;
+  min-height: 80vh;
+  font-size: 24px;
+  resize: none;
+}
+.say-something .post form textarea::placeholder {
+  font-size: 24px;
+  font-weight: 600;
+}
+.say-something .post form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.say-something .post form .image-upload label > img {
+  margin-right: 15px;
+}
+.say-something .post form .image-upload input[type=file] {
+  display: none;
+}
+.say-something .post form .post-btn .btn {
+  background-image: linear-gradient(142.13deg, #00e0ff 31.11%, #009aff 89.68%);
+  box-shadow: 0px 4px 4px rgba(0, 224, 255, 0.25);
+  border-radius: 40px;
+  color: #fff;
+  width: 100px;
+  height: 48px;
+}
+
+.profile .profile-edit {
+  padding: 15px 0;
+}
+.profile .profile-header {
+  background-color: #fff;
+  padding: 16px 0 26px 0;
+}
+.profile .profile-header .user-avatar img {
+  margin-right: 15px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f0fdff;
+  padding: 7px;
+}
+.profile .profile-header .user-info {
+  margin-top: 16px;
+}
+.profile .profile-header .user-info .name {
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.profile .profile-header .user-info .user-name {
+  color: #6b6b6b;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.profile .profile-header .user-info .greet {
+  position: relative;
+  color: #fff;
+  width: 112px;
+  height: 40px;
+  padding: 12px 16px;
+  background-image: linear-gradient(142.13deg, #00e0ff 31.11%, #009aff 89.68%);
+  box-shadow: 0px 4px 4px rgba(0, 224, 255, 0.25);
+  border-radius: 100px;
+}
+.profile .profile-header .user-info .greet::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  left: 1px;
+  top: 6.5px;
+  background: #00e0ff;
+  transform: rotate(67.27deg);
+}
+.profile .profile-options .profile-option-top {
+  border-top: 16px solid #f9f9f9;
+  border-bottom: 16px solid #f9f9f9;
+}
+.profile .profile-options .profile-option-bottom .btb {
+  border-bottom: 0;
+}
+.profile .profile-options .single-option {
+  border-bottom: 1px solid #efefef;
+  padding: 15px 0;
+}
+.profile .profile-options .single-option .option-icon img {
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  background: #f0fdff;
+}
+.profile .profile-options .single-option .option-link a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Rooms */
+.rooms .rooms-header {
+  margin-bottom: 30px;
+}
+.rooms .single-room {
+  background: #eeee;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  min-height: 120px;
+  padding: 8px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.rooms .single-room .room-info {
+  position: absolute;
+  bottom: 8px;
+}
+.rooms .single-room .room-title {
+  color: #ffff;
+  margin-bottom: -5px;
+}
+.rooms .single-room .user-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+.rooms .room-one {
+  background: #ffb84e;
+}
+.rooms .room-two {
+  background: #674eff;
+}
+.rooms .room-three {
+  background: #b95eec;
+}
+.rooms .room-four {
+  background: #ff5384;
+}
+.rooms .room-five {
+  background: #557ef0;
+}
+.rooms .room-six {
+  background: #4ebfff;
+}
+.rooms .room-seven {
+  background: #3fd37d;
+}
+.rooms .room-eight {
+  background: #ff4e4e;
+}
+
+/* Nav */
+.navigation {
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+}
+.navigation ul {
+  margin-bottom: 15px;
+}
+.navigation ul li {
+  display: inline-block;
+  margin: 0px 28px;
+  padding-top: 15px;
+}
+.navigation ul li a img {
+  color: #009aff;
+}
+
+.btn {
+  background-image: linear-gradient(142.13deg, #00e0ff 31.11%, #009aff 89.68%);
+  box-shadow: 0px 4px 4px rgba(0, 224, 255, 0.25);
+  border-radius: 100px;
+  border: none;
+  padding: 12px 0;
+  outline: none;
+}
+
+.gradient-btn,
+.transparent-btn {
+  padding: 15px 60px;
+  border: 1px solid #efefef;
+  background: #fff;
+  border-radius: 50px;
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+}
+.gradient-btn:focus,
+.transparent-btn:focus {
+  outline: none;
+}
+.gradient-btn:visited,
+.transparent-btn:visited {
+  color: #333333;
+}
+
+.gradient-btn {
+  color: #fff;
+  background-image: linear-gradient(142.13deg, #00e0ff 31.11%, #009aff 89.68%);
+  box-shadow: 0px 4px 4px rgba(0, 224, 255, 0.25);
+  border: none;
+}
+.gradient-btn:visited {
+  color: #fff;
+}
+
+.home-indicator {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 90.64%;
+  bottom: 0%;
+  background: #f9f9f9;
+  border-radius: 24px 0px 0px 0px;
+}
+
+.indicator-line {
+  position: absolute;
+  width: 135px;
+  height: 5px;
+  left: calc(50% - 135px / 2);
+  bottom: 8px;
+  background: #8a8a8a;
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
